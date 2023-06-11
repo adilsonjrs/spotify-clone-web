@@ -1,8 +1,8 @@
 'use client'
-import SpotifyLogo from '../app/assets/spotify.svg'
+import SpotifyLogo from '../assets/spotify.svg'
 import Image from "next/image";
 
-export default function Login() {
+export default function Auth() {
   const clientId = process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_ID;
   const redirectUri = process.env.NEXT_PUBLIC_SPOTIFY_REDIRECT_URI;
 
